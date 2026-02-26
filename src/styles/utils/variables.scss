@@ -1,4 +1,6 @@
 $color: #00acdc;
+$color-white: #fff;
+$color-black: #060b35;
 $numbers: (
   one: 1,
   two: 2,
@@ -8,3 +10,18 @@ $numbers: (
 );
 $star-default: url(../images/star.svg);
 $star-active: url(../images/star-active.svg);
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1200px;
+$container-paddings: 46px 48px;
+$grid-gaps: 50px 40px;
+$breakpoint-lg: 1024px;
+$breakpoint-md: 768px;
+$breakpoint-sm: 488px;
+$duration: 300ms;
+$width-card: 200px;
+$columns-mobile: 1;
+$columns-sm: 2;
+$columns-md: 3;
+$columns-lg: 4;
+$width-star: 16px;
+$height-star: 16px;

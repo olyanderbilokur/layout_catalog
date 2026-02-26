@@ -1,9 +1,11 @@
 @import './utils/variables';
+@import './utils/mixins';
 @import './blocks/header';
 @import './blocks/nav';
 @import './blocks/main';
 @import './blocks/card';
 @import './blocks/stars';
+@import './blocks/logo';
 
 html {
   box-sizing: border-box;
@@ -16,7 +18,7 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 body,
@@ -31,9 +33,4 @@ span {
 h2,
 p {
   margin: 0;
-}
-
-.logo__img {
-  height: 40px;
-  display: block;
 }

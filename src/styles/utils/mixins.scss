@@ -1,0 +1,11 @@
+@mixin on-tablet {
+  @media (min-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+
+@mixin from($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
