@@ -1,0 +1,22 @@
+.header {
+  background-color: #fff;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 #0000000d;
+
+  &__container {
+    margin: 0 50px;
+
+    /* height: 60px; */
+
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 1024px;
+  }
+}
