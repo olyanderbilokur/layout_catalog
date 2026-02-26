@@ -1,6 +1,6 @@
 .card {
   // width: 200px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $color-border;
   border-radius: 5px;
   padding: 32px 16px 16px;
 
@@ -47,8 +47,9 @@
     line-height: 16px;
     letter-spacing: 0;
     text-transform: uppercase;
-    transition: background-color $duration;
-    transition: color $duration;
+    transition:
+      background-color $duration,
+      color $duration;
 
     &:hover {
       background-color: $color-white;
@@ -58,7 +59,7 @@
 
   &__product-code,
   &__price-name {
-    color: #616070;
+    color: $color-product-price;
   }
 
   &__product-name {
@@ -67,6 +68,7 @@
     line-height: 18px;
     letter-spacing: 0;
     margin-bottom: 4px;
+    transition: color $duration;
   }
 
   &__product-code,

@@ -1,6 +1,8 @@
 $color: #00acdc;
 $color-white: #fff;
 $color-black: #060b35;
+$color-product-price: #616070;
+$color-border: #f3f3f3;
 $numbers: (
   one: 1,
   two: 2,
@@ -10,10 +12,9 @@ $numbers: (
 );
 $star-default: url(../images/star.svg);
 $star-active: url(../images/star-active.svg);
-$breakpoint-tablet: 1024px;
 $breakpoint-desktop: 1200px;
-$container-paddings: 46px 48px;
-$grid-gaps: 50px 40px;
+$grid-gap: 46px 48px;
+$container-padding: 50px 40px;
 $breakpoint-lg: 1024px;
 $breakpoint-md: 768px;
 $breakpoint-sm: 488px;
@@ -25,3 +26,6 @@ $columns-md: 3;
 $columns-lg: 4;
 $width-star: 16px;
 $height-star: 16px;
+$nav-height: 4px;
+$nav-border-radius: 8px;
+$logo-height: 40px;
